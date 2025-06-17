@@ -6,7 +6,7 @@ This project uses **Terraform** to provision cloud infrastructure on **AWS**, in
 - An **Application Load Balancer (ALB)** to distribute incoming traffic between the instances
 
 
-
+<br>
 🚀 Features
 🔒 Creates a custom Virtual Private Cloud (VPC) with subnets, routing tables, and internet gateways.
 
@@ -16,7 +16,7 @@ This project uses **Terraform** to provision cloud infrastructure on **AWS**, in
 
 🛠 User data scripts automatically install and start simple web applications on the instances.
 
-
+<br>
 
 🧰 Prerequisites
 Terraform installed
@@ -25,7 +25,7 @@ AWS CLI configured with your credentials (aws configure)
 
 An AWS account
 
-
+<br>
 
 🛠️ Important Terraform Commands
 Command	Description
