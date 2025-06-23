@@ -1,4 +1,4 @@
-# 🌐 Terraform VPC Infrastructure with Load Balanced Applications
+#  Terraform VPC Infrastructure with Load Balanced Applications
 
 This project uses **Terraform** to provision cloud infrastructure on **AWS**, including:
 - A **VPC** with public subnets in multiple **Availability Zones**
@@ -7,27 +7,27 @@ This project uses **Terraform** to provision cloud infrastructure on **AWS**, in
 
 
 <br>
-🚀 Features
-🔒 Creates a custom Virtual Private Cloud (VPC) with subnets, routing tables, and internet gateways.
+ Features
+ Creates a custom Virtual Private Cloud (VPC) with subnets, routing tables, and internet gateways.
 
-☁️ Launches 2 EC2 instances in separate Availability Zones for high availability.
+ Launches 2 EC2 instances in separate Availability Zones for high availability.
 
-📡 Sets up an Application Load Balancer (ALB) with a target group that automatically balances incoming traffic across the instances.
+ Sets up an Application Load Balancer (ALB) with a target group that automatically balances incoming traffic across the instances.
 
-🛠 User data scripts automatically install and start simple web applications on the instances.
+ User data scripts automatically install and start simple web applications on the instances.
 
 <br>
 
-🧰 Prerequisites
+ Prerequisites
 Terraform installed
 
 AWS CLI configured with your credentials (aws configure)
 
-An AWS account
+
 
 <br>
 
-🛠️ Important Terraform Commands
+ Important Terraform Commands
 Command	Description
 
 terraform init :	Initializes Terraform configuration and downloads provider plugins
